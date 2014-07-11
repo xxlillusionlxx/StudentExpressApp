@@ -1,0 +1,84 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  height: 100%;
+  background-image: url('/images/bg1.jpg');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+
+}
+.nav_bar {
+	position: relative;
+	width: 15%;
+	height: 70px;
+	display: inline-block;
+	margin-left: 5px;
+	background-color: #3294FF;
+	color: white;
+	float: right;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	text-align: center;
+}
+.home {
+	width: 7%;
+}
+.active#loan {
+	background-color: #ad3a1d;
+}
+.active#tips {
+	background-color: #008200;
+}
+a {
+	color: white !important;
+}
+a:hover {
+	text-decoration: none !important;
+	color: #005580 !important;
+}
+
+ul {
+	list-style: none;
+}
+.side_bar {
+	position: relative;
+	top: 210px;
+	left: -50px;
+	margin: 0;
+	width: 5px;
+	height: 75px;
+	z-index: 1;
+	border-radius: 0 !important;
+	background-color: #EC500C;
+}
+.content {
+	position:relative;
+	top: 135px;
+	width: 95%;
+	height: auto;
+	padding: 25px;
+	float:right;
+	margin-left: 3px;
+	color: #FBF7F5;
+	background-color: rgba(50, 148, 255, 1);
+}
+.lower_right {
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	z-index: 1;
+}
+#tips {
+	background-color: #00a000;
+}
+#loan{
+	background-color: #db542d;
+}
+#financial {
+	background-color: #603cbb;
+}
+.form-signin {
+  max-width: 330px;
+  padding: 15px;
+  margin: 100px auto;
+}
